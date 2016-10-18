@@ -2,13 +2,7 @@
 
 <img class="alignnone size-medium wp-image-166" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/WIRES-300x300.jpg" alt="wires" width="300" height="300" />
 
-1. Update/Upgrade</h4>
-
-```sudo apt-get update```
-
-```sudo apt-get upgrade```
-
-<h4>2.Working w/ a router</h4>
+<h4>1. Connecting to a network</h4>
 To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem. If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network.
 
 In this case, [ we were working with a Mac Airport Base station.](https://www.amazon.com/Apple-AirPort-Express-Station-MC414LL/dp/B008ALA2RC)
@@ -41,7 +35,16 @@ Use ```ifconfig``` to find the IP address of the Pi. (You can use the console c
 SSH into your Pi using the ```ssh pi@``` the address from ```ifconfig```
 
 <img class="alignnone size-medium wp-image-176" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/ssh-1-300x189.gif" alt="ssh" width="300" height="189" />
-<h4>3. installing dependencies
+
+<h4>2. Update/Upgrade</h4>
+
+```sudo apt-get update```
+
+```sudo apt-get upgrade```
+
+
+<h4>3. Installing Dependencies for LAMP (Linux, Apache, mySQL, PHP) Server.
+
 Here are the steps I followed based off this
 <a href="https://www.raspberrypi.org/learning/lamp-web-server-with-wordpress/worksheet/">AMAZING TUTORIAL</a>.</h4>
 ####Install Apache
