@@ -1,9 +1,9 @@
 # Pi-Jams
-Using a LAMP server w/ Opentape.fm
 
 <img class="alignnone size-medium wp-image-166" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/WIRES-300x300.jpg" alt="wires" width="300" height="300" />
 
 1. Update/Upgrade</h4>
+
 ```sudo apt-get update```
 
 ```sudo apt-get upgrade```
