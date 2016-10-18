@@ -56,7 +56,7 @@ Here are the steps I followed based off this
 ####Restarting Apache
 <pre class=" language-bash"><code class=" language-bash">sudo service apache2 restart</code></pre>
 I followed that tutorial up to the Wordpress section...
-<h4> 4. testing apache</h4>
+<h4> 4. Testing Apache</h4>
 To test if the apache server is working type your Pi's IP address into your laptop's browser. You can see this on your laptop because both machines are connected to a local network via router.
 
 <img class="alignnone size-medium wp-image-178" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/Screen-Shot-2016-09-20-at-8.17.22-PM-300x239.png" alt="screen-shot-2016-09-20-at-8-17-22-pm" width="300" height="239" />
