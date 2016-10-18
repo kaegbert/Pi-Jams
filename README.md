@@ -85,7 +85,7 @@ the path to each directory was:
 
 There was also initially a 2mb max upload size by default through Apache.
 
-<a href="http://www.miscdebris.net/blog/2008/04/14/changing-the-php-file-upload-limit-in-ubuntu-linux/">I used this tutorial to troubleshoot.</a>
+<a href="http://www.miscdebris.net/blog/2008/04/14/changing-the-php-file-upload-limit-in-ubuntu-linux/"> Use this tutorial to troubleshoot or use the commands below.</a>
 <pre>sudo nano /etc/php5/apache2/php.ini</pre>
 CTRL + W to search for
 <pre>upload_max_filesize 2M 2M</pre>
