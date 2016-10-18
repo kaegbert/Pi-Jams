@@ -2,14 +2,13 @@
 Using a LAMP server w/ Opentape.fm
 
 <img class="alignnone size-medium wp-image-166" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/WIRES-300x300.jpg" alt="wires" width="300" height="300" />
-<h1>Local instance of opentape.fm using Apache...hmm</h1>
-<h4>Lets do it.
-1. update/upgrade</h4>
+
+1. Update/Upgrade</h4>
 ```sudo apt-get update```
 
 ```sudo apt-get updgrade```
-<h4>2. working w/ a router</h4>
-Working with a router has been a lot easier to start because you don't have to deal with Purchase Wifi.
+<h4>2.Working w/ a router</h4>
+To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network.
 
 In this case, [ I was working with a Mac Airport Base station.](https://www.amazon.com/Apple-AirPort-Express-Station-MC414LL/dp/B008ALA2RC)
 
@@ -28,11 +27,10 @@ In AirPort Utility, go to File &gt; Configure Other.
 <img class="alignnone size-medium wp-image-169" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/AIRPORT-300x231.png" alt="airport" width="300" height="231" />
 
 You will be prompted with an IP address and password.
-10.0.1.1 might make sense if my laptops IP is .2? (thank you Paul Thayer for the help.)
 
 <img class="alignnone size-medium wp-image-171" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/Screen-Shot-2016-09-20-at-7.47.27-PM-300x123.png" alt="screen-shot-2016-09-20-at-7-47-27-pm" width="300" height="123" />
 
-At this point, you should be able to get an internet connection to your Pi and laptop.
+At this point, you should be able to get an internet connection to your Pi and other device.
 
 Use ```ifconfig``` to find the IP address of the Pi. (You can use the console cable for this first time around.)
 
