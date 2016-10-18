@@ -13,7 +13,7 @@ To setup the station you have to use AirPort Utility, which is in the Utilities 
 
 <img class="alignnone size-medium wp-image-168" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/UTILITIES2-300x258.png" alt="utilities2" width="300" height="258" />
 
-In Networks in System Preferences you can check your macbook's IP address.
+In Networks in System Preferences you can check your computer's IP address.
 
 <img class="alignnone size-medium wp-image-170" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/IP-300x62.png" alt="ip" width="300" height="62" />
 
@@ -60,8 +60,9 @@ I followed that tutorial up to the Wordpress section...
 To test if the apache server is working type your Pi's IP address into your laptop's browser. You can see this on your laptop because both machines are connected to a local network via router.
 
 <img class="alignnone size-medium wp-image-178" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/Screen-Shot-2016-09-20-at-8.17.22-PM-300x239.png" alt="screen-shot-2016-09-20-at-8-17-22-pm" width="300" height="239" />
-<h4>5. interfacing w/ opentape.fm</h4>
-Commands used to move opentape.fm (downloaded on my macbook) to the raspberry pi via sftp:
+
+<h4>5. Interfacing with Opentape.fm</h4>
+Commands used to move opentape.fm (downloaded on my computer) to the raspberry pi via sftp:
 
 ```sftp pi@10.0.1.4```
 
@@ -70,7 +71,8 @@ Commands used to move opentape.fm (downloaded on my macbook) to the raspberry pi
 ```unzip opentape-0.12.zip```
 
 ```/var/www/html/``` is where the index.html for the Apache server is located.
-<h4>6. Troubleshooting opentape.fm</h4>
+
+<h4>6. Troubleshooting Opentape.fm</h4>
 When I opened http://10.0.1.4/opentape/index.php I received a message that /settings/ and /songs/ needed read/write permissions.
 
 <a href="https://www.g-loaded.eu/2008/12/09/making-a-directory-writable-by-the-webserver/">I used this tutorial to troubleshoot.</a>
