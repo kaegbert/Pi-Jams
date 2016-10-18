@@ -3,7 +3,9 @@
 <img class="alignnone size-medium wp-image-166" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/WIRES-300x300.jpg" alt="wires" width="300" height="300" />
 
 <h4>1. Connecting to a network</h4>
-To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem. If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network.
+To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem and you can skip to step #2.
+
+If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network.
 
 In this case, [ we were working with a Mac Airport Base station.](https://www.amazon.com/Apple-AirPort-Express-Station-MC414LL/dp/B008ALA2RC)
 
