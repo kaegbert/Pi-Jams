@@ -43,10 +43,10 @@ SSH into your Pi using the ```ssh pi@``` the address from ```ifconfig```
 ```sudo apt-get upgrade```
 
 
-<h4>3. Installing Dependencies for LAMP (Linux, Apache, mySQL, PHP) Server.
+<h4>3. Installing Dependencies for LAMP (Linux, Apache, mySQL, PHP) Server.</h4>
 
 Here are the steps I followed based off this
-<a href="https://www.raspberrypi.org/learning/lamp-web-server-with-wordpress/worksheet/">AMAZING TUTORIAL</a>.</h4>
+<a href="https://www.raspberrypi.org/learning/lamp-web-server-with-wordpress/worksheet/">tutorial</a>.
 ####Install Apache
 <pre class=" language-bash"><code class=" language-bash">sudo apt<span class="token operator">-</span>get install apache2 <span class="token operator">-</span>y</code></pre>
 ####Install PHP
