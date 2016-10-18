@@ -6,17 +6,18 @@ Using a LAMP server w/ Opentape.fm
 1. Update/Upgrade</h4>
 ```sudo apt-get update```
 
-```sudo apt-get updgrade```
-<h4>2.Working w/ a router</h4>
-To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network.
+```sudo apt-get upgrade```
 
-In this case, [ I was working with a Mac Airport Base station.](https://www.amazon.com/Apple-AirPort-Express-Station-MC414LL/dp/B008ALA2RC)
+<h4>2.Working w/ a router</h4>
+To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem. If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network.
+
+In this case, [ we were working with a Mac Airport Base station.](https://www.amazon.com/Apple-AirPort-Express-Station-MC414LL/dp/B008ALA2RC)
 
 It has one input port (where ethernet is plugged in) and three output ports (where I plugged in ethernet to my laptop and Raspberry Pi.)
 
 To setup the station you have to use AirPort Utility, which is in the Utilities folder in your Finder.
 
-<img class="alignnone size-medium wp-image-167" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/UTILITIES-300x28.png" alt="utilities" width="300" height="28" /> <img class="alignnone size-medium wp-image-168" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/UTILITIES2-300x258.png" alt="utilities2" width="300" height="258" />
+<img class="alignnone size-medium wp-image-168" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/UTILITIES2-300x258.png" alt="utilities2" width="300" height="258" />
 
 In Networks in System Preferences you can check your macbook's IP address.
 
@@ -31,6 +32,7 @@ You will be prompted with an IP address and password.
 <img class="alignnone size-medium wp-image-171" src="http://c.visitsteve.com/sptc16/wp-content/uploads/sites/18/2016/09/Screen-Shot-2016-09-20-at-7.47.27-PM-300x123.png" alt="screen-shot-2016-09-20-at-7-47-27-pm" width="300" height="123" />
 
 At this point, you should be able to get an internet connection to your Pi and other device.
+
 
 Use ```ifconfig``` to find the IP address of the Pi. (You can use the console cable for this first time around.)
 
