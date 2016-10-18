@@ -79,9 +79,9 @@ When I opened http://10.0.1.4/opentape/index.php I received a message that /set
 <pre class="console">chmod g+w /path/to/mydir</pre>
 the path to each directory was:
 
-/var/www/html/songs/
+```/var/www/html/songs/```
 
-/var/www/html/settings/
+```/var/www/html/settings/```
 
 There was also initially a 2mb max upload size by default through Apache.
 
