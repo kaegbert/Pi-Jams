@@ -27,15 +27,35 @@ img, object, embed, video {
 	padding-right: 1.82%;
 }
 
-.button {
-	height: 100px;
-	width: 100px;
-	padding-left: 10px;
-	padding-top: 5px;
+#logo{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#text{
+	text-decoration: none;
+	height: 150px;
+	width: 75px;
+	padding-left: 15px;
+	padding-top: 10px;
 	font-size: 50px;
 	float: center;
 	width: 100%;
 	display: block;
+	margin-top: 15px;
+}
+
+.button {
+	text-decoration: none;
+	height: 75px;
+	width: 75px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 50px;
+	float: center;
+	width: 100%;
+	display: block;
+	margin-top: 15px;
 }
 
 #ej {
