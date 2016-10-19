@@ -2,7 +2,7 @@
 
 To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem.
 
-If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network. CHECK OUT THE BOTTOM OF THIS TUTORIAL FOR MORE INFORMATION ON TO SET THIS UP.
+If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network. CHECK OUT THE BOTTOM OF THIS TUTORIAL FOR MORE INFORMATION ON HOW TO SET THIS UP.
 
 <h4>1. Update/Upgrade</h4>
 ```sudo apt-get update```
