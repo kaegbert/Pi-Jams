@@ -1,5 +1,7 @@
 # Pi-Jams
 
+This project uses Raspberry Pi working as a local server to host an instance of Opentape.fm. To get setup the quickest way possible with our custom multiple playlist setup, setup your LAMP server using the instructions below and then use the html folder in this repo. You can add multiple playlists by adding new folders in the main html directory. 
+
 To access the local server that will be hosted on your Pi, your other devices needed to be connected to the same network. If you are on a private/home network, this won't be too much of a problem.
 
 If you are on a public/enterprise/school network, you may need to setup an auxillary wireless router for the Pi to be connected to. This will allow you to access the Pi's server as long as you are connected to the auxillary router network. CHECK OUT THE BOTTOM OF THIS TUTORIAL FOR MORE INFORMATION ON HOW TO SET THIS UP.
